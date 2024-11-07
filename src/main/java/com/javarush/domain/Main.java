@@ -173,13 +173,6 @@ public class Main {
         }).collect(Collectors.toList());
     }
 
-//    public static void main(String[] args) {
-//        Main main = new Main();
-//        List<City> allCities = main.fetchData(main);
-//        List<CityCountry> preparedData = main.transformData(allCities);
-//        main.pushToRedis(preparedData);
-//        main.shutdown();
-//    }
 
     public static void main(String[] args) {
         Main main = new Main();
